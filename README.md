@@ -13,3 +13,5 @@ Downloaded Node
 
 and installed the libraries using
 npm install cubing
+
+Follow these instructions for details: https://github.com/cubing/cubing.js
