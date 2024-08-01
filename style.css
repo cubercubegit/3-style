@@ -1,8 +1,68 @@
-a.basics {
-    font-size: x-small;
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
 }
 
-h1 {
-    font-size: xx-large;
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.explain{
+    display: flex;
+    gap: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.explain p {
+    flex:2;
+}
+
+.explain script,
+.explain twisty-player{
+    flex:1;
+}
+
+.footer{
+    background-color: lightgrey;
+    margin-top: 5px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans .items {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.plans .items p{
+    background-color: goldenrod;
+    border: 1px dotted black;
+    border-radius: 5px;
     text-align: center;
+    padding: 5px;
 }
